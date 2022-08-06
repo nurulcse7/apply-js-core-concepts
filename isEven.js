@@ -18,6 +18,7 @@
 // console.log(145%2);
 // console.log(1287%2);
 
+// To get even number / remainder / odd number using function
 function isEven(number){
     const remainder = number % 2;
     if(remainder === 0){
@@ -27,8 +28,8 @@ function isEven(number){
         return false;
     }
 }
-
 const myNumberIsEven = isEven(303);
-console.log(myNumberIsEven);
+console.log(myNumberIsEven); // print: false
+
 const herNumberIsEVen = isEven(1280);
-console.log(herNumberIsEVen);
+console.log(herNumberIsEVen); // print: true

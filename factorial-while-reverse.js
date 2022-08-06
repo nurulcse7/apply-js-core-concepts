@@ -1,3 +1,4 @@
+// Reverse factorial (Multiplication)  using while loop (VR 20-8)
 function factorial(number){
     let i = number;
     let result = 1;
@@ -9,3 +10,4 @@ function factorial(number){
 }
 
 const output = factorial(7);
+console.log(output) // print: 5040
